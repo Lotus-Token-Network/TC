@@ -35,26 +35,30 @@ The dev-team finished coding the aspects on the following areas:
 2. Inclusion of three crowd sale periods
 3. Distribution of tokens for each contributed ether.
 
-### Token Creation
+### 1. Token Creation
 
 The token creation aspect initializes the token count to zero (0) and presents a Total Supply form field on the smart contract deployment platform.
 
-### Three Crowd Sale Periods
+### 2. Three Crowd Sale Periods
 
 Separate form fields are presented to accept token supply values for the three crowd-sale periods.
 Each of these include another form field where the ether token value is to be fed.  
 
-### Token Transfer
+### 3. Token Transfer
 
 Based on the parameters set during the token creation, members of the dev-team and volunteer testers could then send test ethers to the smart contract address in exchange for tokens.
 
 ## Next Coding Target
 
-As of November 04, 2017, the core-dev team is tweaking the limits set for each of the crowd-sale period so that once the limit is reached, the first processed ether sent - that would exceed the token supply limit - will have a subroutine where the value of ether equivalent to the amount of token supply left will be subtracted from the total ether sent. The rest will be transferred back to the sender.
+4. As of November 04, 2017, the core-dev team is tweaking the limits set for each of the crowd-sale period so that once the limit is reached, the first processed ether sent - that would exceed the token supply limit - will have a subroutine where the value of ether equivalent to the amount of token supply left will be subtracted from the total ether sent. The rest will be transferred back to the sender.
 
 ```
 For example, the total supply is 1000 and 1 ether is equivalent to 200 tokens. 900 tokens were already sold to various backers. Jill (another backer) then sent 1 more ether. The smart contract will then perform a subroutine that will accept half (0.5) ether - equivalent to 100 tokens - then transfer back the other half (0.5) ether to Jill.
 ```
+
+5. Setting the Start and End Dates of each crowd-sale periods
+6. Routine to distribute or transfer collected ETHs from crowd-sale to various addresses based on the whitepaper's budget allocation chart (thus making this a full-pledged smart contract).
+
 
 ## Built With
 
