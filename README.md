@@ -70,7 +70,7 @@ We are currently basing our Contributing code of conduct and pull request submis
 
 We use GitHub's built-in versions control system.
 
-## Authors
+## Coders
 
 * **Michael De Guzman** - *Team Leader*
 
