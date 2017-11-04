@@ -78,7 +78,7 @@ We use GitHub's built-in versions control system.
 
 * **Mahlory Ambrosio** - *Junior Developer*
 
-* **Samuel T Sendon II** - *Initial Setup of [Lotus Token Network](https://github.com/Lotus-Token-Network) organization on GitHub; Documentation Manager*
+* **Samuel T Sendon II** - *Initial Setup of [Lotus Token Network](https://github.com/Lotus-Token-Network) organization on GitHub; Documentation Manager; Junior Developer*
 
 See also the list of [contributors](https://github.com/Lotus-Token-Network/TC/graphs/contributors) who participated in this project.
 
