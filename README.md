@@ -74,11 +74,11 @@ We use GitHub's built-in versions control system.
 
 * **Michael De Guzman** - *Team Leader*
 
-* **Dondi Imperial** - *Senior Developer*
+* **iamthehighway** - *Senior Developer*
 
 * **Mahlory Ambrosio** - *Junior Developer*
 
-* **Samuel T Sendon II** - *Initial Setup of [Lotus Token Network](https://github.com/Lotus-Token-Network) organization on GitHub; Documentation Manager; Junior Developer*
+* **altcoinrockerxyz** - *Initial Setup of [Lotus Token Network](https://github.com/Lotus-Token-Network) organization on GitHub; Documentation Manager; Junior Developer*
 
 See also the list of [contributors](https://github.com/Lotus-Token-Network/TC/graphs/contributors) who participated in this project.
 
