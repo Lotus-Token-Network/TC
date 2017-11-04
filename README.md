@@ -60,7 +60,6 @@ For example, the total supply is 1000 and 1 ether is equivalent to 200 tokens. 9
 
 * [ATOM](https://atom.io/) - The text editor being used
 * [Mist](https://github.com/ethereum/mist/releases) - Downloadable Ethereum Wallet and Solidity deployment platform
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Contributing
 
