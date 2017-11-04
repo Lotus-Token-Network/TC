@@ -78,13 +78,13 @@ We use GitHub's built-in versions control system.
 
 * **Mahlory Ambrosio** - *Junior Developer*
 
-* **Samuel T Sendon II** - *Initial Setup of [Lotus Token Network](https://github.com/Lotus-Token-Network) organization on GitHub*
+* **Samuel T Sendon II** - *Initial Setup of [Lotus Token Network](https://github.com/Lotus-Token-Network) organization on GitHub; Documentation Manager*
 
 See also the list of [contributors](https://github.com/Lotus-Token-Network/TC/graphs/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+License for this project is still being discussed but the team is leaning toward going open-source. See the [LICENSE.md](LICENSE.md) file for details on various available licenses.
 
 ## Acknowledgments
 
