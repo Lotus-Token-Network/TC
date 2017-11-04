@@ -13,11 +13,11 @@ To join the development, you will need to have:
 2. A programmer that have good understanding and experience using JavaScript
 3. Have read about Ethereum and Solidity
 
+### Coding Participation Requirements
 
-
-4. Have a text editor
-2. MetaMask Extension for Chrome
-3. Mist or Browser-based Ethereum Wallet
+1. Have a text editor
+2. Install MetaMask Extension for Chrome
+3. Install Mist or access Browser-based Ethereum Wallet
 
 ```
 For browser-based: Go to https://wallet.ethereum.org
