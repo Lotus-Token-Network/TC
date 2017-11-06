@@ -33,7 +33,9 @@ The code is being tested using Rinkeby TestNet.
 The dev-team finished coding the aspects on the following areas:
 1. Token Creation
 2. Inclusion of three crowd sale periods
-3. Distribution of tokens for each contributed ether.
+3. Distribution of tokens for each contributed ether
+4. Routine to limit contribution based on total supply for each period
+5. Trigger to Start Crowd Sale periods
 
 ### 1. Token Creation
 
@@ -48,16 +50,20 @@ Each of these include another form field where the ether token value is to be fe
 
 Based on the parameters set during the token creation, members of the dev-team and volunteer testers could then send test ethers to the smart contract address in exchange for tokens.
 
+### 4. Contribution Limits
+
+The contract can now identify the token limits and prevent sending tokens or accepting contributions if they exceed the limit.
+
+### 5. Trigger to Start Crowd Sale Periods
+
+Once each crowd-sale period reaches the limit, it will go to a waiting stage. To proceed with the next ICO period, the admin will manually execute the function that starts it.
+
 ## Next Coding Target
 
-4. As of November 04, 2017, the core-dev team is tweaking the limits set for each of the crowd-sale period so that once the limit is reached, the first processed ether sent - that would exceed the token supply limit - will have a subroutine where the value of ether equivalent to the amount of token supply left will be subtracted from the total ether sent. The rest will be transferred back to the sender.
-
-```
-For example, the total supply is 1000 and 1 ether is equivalent to 200 tokens. 900 tokens were already sold to various backers. Jill (another backer) then sent 1 more ether. The smart contract will then perform a subroutine that will accept half (0.5) ether - equivalent to 100 tokens - then transfer back the other half (0.5) ether to Jill.
-```
-
-5. Setting the Start and End Dates of each crowd-sale periods
-6. Routine to distribute or transfer collected ETHs from crowd-sale to various addresses based on the whitepaper's budget allocation chart (thus making this a full-pledged smart contract).
+6. Tweak the limits per ICO period.
+7. Setup of a way to manually stop the ICO period for emergency purposes.
+8. Setting automatic Start and End Dates for each crowd-sale periods
+9. Routine to distribute or transfer collected ETHs from crowd-sale to various addresses based on the whitepaper's budget allocation chart (thus making this a full-pledged smart contract).
 
 
 ## Built With
