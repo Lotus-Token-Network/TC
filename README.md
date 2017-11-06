@@ -56,7 +56,7 @@ The contract can now identify the token limits and prevent sending tokens or acc
 
 ### 5. Trigger to Start Crowd Sale Periods
 
-Once each crowd-sale period reaches the limit, it will go to a waiting stage. To proceed with the next ICO period, the admin will manually execute the function that starts it.
+To start the PRESALE, the contract admin will have to manually execute the PRESALE function. Once each crowd-sale period reaches the limit, it will go to a waiting stage. To proceed with the next ICO period, the admin will manually execute the function that starts it.
 
 ## Next Coding Target
 
