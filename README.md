@@ -36,6 +36,7 @@ The dev-team finished coding the aspects on the following areas:
 3. Distribution of tokens for each contributed ether
 4. Routine to limit contribution based on total supply for each period
 5. Trigger to Start Crowd Sale periods
+6. Auto-transfer of collected ETHs into another wallet address
 
 ### 1. Token Creation
 
@@ -58,12 +59,18 @@ The contract can now identify the token limits and prevent sending tokens or acc
 
 To start the PRESALE, the contract admin will have to manually execute the PRESALE function. Once each crowd-sale period reaches the limit, it will go to a waiting stage. To proceed with the next ICO period, the admin will manually execute the function that starts it.
 
+### 6. Auto-transfer Collected ETHs to A Destination Wallet
+
+The process of transferring collected funds into another wallet is now enabled, but will be tweaked to reflect the budget allocation chart... From the chart, a collection of single and multi-signature accounts will be added into the code.
+
 ## Next Coding Target
 
-6. Tweak the limits per ICO period.
-7. Setup of a way to manually stop the ICO period for emergency purposes.
-8. Setting automatic Start and End Dates for each crowd-sale periods
-9. Routine to distribute or transfer collected ETHs from crowd-sale to various addresses based on the whitepaper's budget allocation chart (thus making this a full-pledged smart contract).
+7. Setup multiple wallets as recipients of the funds divided according to the Budget Allocation Chart.
+8. Transfer of the rest of the tokens into one or more multi-sig wallet(s)
+9. Setting automatic Start and End Dates for each crowd-sale periods
+10. Routine to distribute or transfer collected ETHs from crowd-sale to various addresses based on the whitepaper's budget allocation chart (thus making this a full-pledged smart contract).
+11. Setup of a way to manually stop the ICO period for emergency purposes.
+12. Sorting out the way collected funds are distributed to various core team (10 people)
 
 
 ## Built With
