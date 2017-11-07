@@ -61,21 +61,22 @@ To start the PRESALE, the contract admin will have to manually execute the PRESA
 
 ### 6. Auto-transfer Collected ETHs to A Destination Wallet
 
-The process of transferring collected funds into another wallet is now enabled, but will be tweaked to reflect the budget allocation chart... From the chart, a collection of single and multi-signature accounts will be added into the code.
+The process that transfers collected funds into another wallet is now enabled, but will be tweaked to reflect the budget allocation chart... From the chart, a collection of single and multi-signature accounts will be added into the code.
 
 ## Next Coding Target
 
-7. Setup multiple wallets as recipients of the funds divided according to the Budget Allocation Chart.
-8. Transfer of the rest of the tokens into one or more multi-sig wallet(s)
-9. Setting automatic Start and End Dates for each crowd-sale periods
-10. Routine to distribute or transfer collected ETHs from crowd-sale to various addresses based on the whitepaper's budget allocation chart (thus making this a full-pledged smart contract).
+7. Routine to distribute or transfer collected ETHs from crowd-sale to various addresses based on the whitepaper's budget allocation chart (thus making this a full-pledged smart contract).
+7a. Sort out the way compensation funds are distributed to various core team (10 people)
+8. Conditions for each crowd sale that sets limits on the min and max eths sent.
+9. Transfer of the rest of the tokens into one or more multi-sig wallet(s)
+10. Setting automatic Start and End Dates for each crowd-sale periods
 11. Setup of a way to manually stop the ICO period for emergency purposes.
-12. Sorting out the way collected funds are distributed to various core team (10 people)
+
 
 
 ## Built With
 
-* [ATOM](https://atom.io/) - The text editor being used
+* [Atom](https://atom.io/) - The text editor being used
 * [Mist](https://github.com/ethereum/mist/releases) - Downloadable Ethereum Wallet and Solidity deployment platform
 
 ## Contributing
