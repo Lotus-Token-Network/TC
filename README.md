@@ -66,9 +66,22 @@ The process that transfers collected funds into another wallet is now enabled, b
 ## Next Coding Target
 
 7. Routine to distribute or transfer collected ETHs from crowd-sale to various addresses based on the whitepaper's budget allocation chart (thus making this a full-pledged smart contract).
-7a. Sort out the way compensation funds are distributed to various core team (10 people)
+7a. Create 9 wallets and 10 core team members as follows:
+
+```
+1. PRE-ICO Mgt Wallet preicomgtWallet multi-sig linked to addresses of two founders jossWallet, jonWallet.
+2. Administrative adminWallet (multi-Sig) for postICO operations (founders as test signatories)
+3. preICO SysDev preicosdWallet - multi-sig linked to 4 devAddresses: samWallet, mikeWallet, dondiWallet, mahlWallet
+4. postICO Sys Dev posticosdWallet (multi-Sig founders as test signatories)
+5. preIcoBranding tamWallet - to cover for designs of logo, whitepaper, and website
+6. Marketing mktgWallet (multi-sig founders as test signatories) - postICO marketing budget
+7. legalWallet (multi-sig founders as test signatories) - postICO legal budget
+8. vcWallet - multi-sig linked to three signatory addresses: lukemWallet,  clairezWallet, wanjWallet
+9. contingency cntgncyWallet (multi-sig founders as test signatories) - postICO contingency fund
+```
+
 8. Conditions for each crowd sale that sets limits on the min and max eths sent.
-9. Transfer of the rest of the tokens into one or more multi-sig wallet(s)
+9. Transfer of the rest of the tokens into one or more multi-sig wallet(s) based on whitepaper token distribution chart
 10. Setting automatic Start and End Dates for each crowd-sale periods
 11. Setup of a way to manually stop the ICO period for emergency purposes.
 
