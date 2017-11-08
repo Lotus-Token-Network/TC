@@ -37,6 +37,7 @@ The dev-team finished coding the aspects on the following areas:
 4. Routine to limit contribution based on total supply for each period
 5. Trigger to Start Crowd Sale periods
 6. Auto-transfer of collected ETHs into another wallet address
+7. Improved auto-transfer mechanism to specify various wallet addresses.
 
 ### 1. Token Creation
 
@@ -57,15 +58,16 @@ The contract can now identify the token limits and prevent sending tokens or acc
 
 ### 5. Trigger to Start Crowd Sale Periods
 
-To start the PRESALE, the contract admin will have to manually execute the PRESALE function. Once each crowd-sale period reaches the limit, it will go to a waiting stage. To proceed with the next ICO period, the admin will manually execute the function that starts it.
+To start the Presale, the contract admin will have to manually executeit. Once each crowd-sale period reaches the limit, it will go to a waiting stage.
+To proceed with the next ICO period, the admin will manually execute the function that starts it.
 
 ### 6. Auto-transfer Collected ETHs to A Destination Wallet
 
 The process that transfers collected funds into another wallet is now enabled, but will be tweaked to reflect the budget allocation chart... From the chart, a collection of single and multi-signature accounts will be added into the code.
 
-## Next Coding Target
+### 7. Distribute collected ETH into various single and multi-sig wallet contracts.
 
-7. Routine to distribute or transfer collected ETHs from crowd-sale to various addresses based on the whitepaper's budget allocation chart (thus making this a full-pledged smart contract).
+Routine to distribute or transfer collected ETHs from crowd-sale to various addresses based on the whitepaper's budget allocation chart (thus making this a full-pledged smart contract).
 7a. Create 9 wallets and 10 core team members as follows:
 
 ```
@@ -79,6 +81,8 @@ The process that transfers collected funds into another wallet is now enabled, b
 8. vcWallet - multi-sig linked to three signatory addresses: lukemWallet,  clairezWallet, wanjWallet
 9. contingency cntgncyWallet (multi-sig founders as test signatories) - postICO contingency fund
 ```
+
+## Next Coding Target
 
 8. Conditions for each crowd sale that sets limits on the min and max eths sent.
 9. Transfer of the rest of the tokens into one or more multi-sig wallet(s) based on whitepaper token distribution chart
