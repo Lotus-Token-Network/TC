@@ -71,8 +71,8 @@ Routine to distribute or transfer collected ETHs from crowd-sale to various addr
 
 ## Next Coding Target
 
-8. Adjust the crowd sale token values based on the latest discussion.
-9. Adjust the budget allocation code based on the latest discussion.
+8. Adjust the budget allocation code based on the latest discussion.
+9. Adjust the crowd sale token values based on the latest discussion.
 10. Conditions for each crowd sale that sets limits on the min and max eths sent.
 11. Transfer of the rest of the tokens into one or more multi-sig wallet(s) based on whitepaper token distribution chart
 12. Setting automatic Start and End Dates for each crowd-sale periods
