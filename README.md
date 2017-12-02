@@ -93,7 +93,7 @@ These are taken from unsold tokens during the crowd sale proportional to the pre
 
 ## Next Coding Target
 
-1. Plan out the Airdrop process.
+1. Plan out the Airdrop process
 
 
 
