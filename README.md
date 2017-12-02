@@ -38,6 +38,9 @@ The dev-team finished coding the aspects on the following areas:
 5. Trigger to Start Crowd Sale periods
 6. Auto-transfer of collected ETHs into another wallet address
 7. Improved auto-transfer mechanism to specify various wallet addresses.
+8. Replaced the auto-transfer mechanism with manual withdrawal for added security.
+9. Configuration to include a Minimum Cap and Maximum Cap for buyers on each of the three crowdsale periods.
+10.Configuration to include Individual Hard Cap.
 
 ### 1. Token Creation
 
@@ -58,8 +61,7 @@ The contract can now identify the token limits and prevent sending tokens or acc
 
 ### 5. Trigger to Start Crowd Sale Periods
 
-To start the Presale, the contract admin will have to manually execute it. Once each crowd-sale period reaches the limit, it will go to a waiting stage.
-To proceed with the next ICO period, the admin will manually execute the function that starts it.
+To start the Presale, the contract admin will have to manually execute it. Once each crowd-sale period reaches the limit, it will require a Stop Function to disallow additional contributions. To proceed with the next ICO period, the admin will manually execute the function that starts it.
 
 ### 6. Auto-transfer Collected ETHs to A Destination Wallet
 
@@ -69,14 +71,29 @@ The process that transfers collected funds into another wallet is now enabled, b
 
 Routine to distribute or transfer collected ETHs from crowd-sale to various addresses based on the whitepaper's budget allocation chart (thus making this a full-pledged smart contract).
 
+### 8. Replaced the auto-transfer mechanism with manual withdrawal for added security.
+
+Manual withdrawal of fund allocations remove the risk or vulnerability to re-entrancy attacks.
+
+### 9. Configuration to include a Minimum Cap and Maximum Cap for buyers on each of the three crowd sale periods.
+
+Minimum cap for each of the crowd sale periods is set to 0.2 Ethers to reduce the possible load of the Main Network. Maximum cap is varied from one crowd sale period to another.
+
+### 10. Configuration to include Individual Hard Cap.
+
+Individual hard cap is included to reduce the possibility of whale-like activities that could have negative effect on the growth of the utility token's value.
+
+### 11. Setup of Stop functions after each crowd sale period.
+
+This allows the smart contract administrator to manually stop a crowd sale period as soon as the deadline is reached.
+
+### 12. Inclusion of vesting period for distribution of token compensations for pre-ICO developments.
+
+These are taken from unsold tokens during the crowd sale proportional to the pre-determined values as found on the whitepaper's fund allocation chart (2% each for the two concept designers, 2% each for the four developers, 1% for branding, 4% for each of the three primary shareholders, 75% to be sent to the Lotus Token Multi-sig Wallet)
+
 ## Next Coding Target
 
-8. Adjust the budget allocation code based on the latest discussion.
-9. Adjust the crowd sale token values based on the latest discussion.
-10. Conditions for each crowd sale that sets limits on the min and max eths sent.
-11. Transfer of the rest of the tokens into one or more multi-sig wallet(s) based on whitepaper token distribution chart
-12. Setting automatic Start and End Dates for each crowd-sale periods
-13. Setup of a way to manually stop the ICO period for emergency purposes.
+1. Plan out the Airdrop process.
 
 
 
