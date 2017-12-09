@@ -1,7 +1,7 @@
 pragma solidity ^0.4.16;
 
 
-/// This is the smart contract for the LOTUS TOKEN NETWORK (LTN)
+/// This is the smart contract for the LOTUS TOKEN NETWORK (LTO)
 /// It covers the deployment of the three (3) Crowdsale periods
 /// As well as the distribution of:
 /// (1) Collected Crowdsale fund
